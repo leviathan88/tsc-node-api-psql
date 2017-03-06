@@ -1,0 +1,21 @@
+{
+  "name": "ts-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node server/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "@types/sequelize": "^3.4.40",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "pg": "^6.1.2",
+    "sequelize": "^3.30.2"
+  }
+}
