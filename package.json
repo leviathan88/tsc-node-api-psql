@@ -18,7 +18,9 @@
     "typescript": "^2.2.1"
   },
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
+    "human-readable-ids": "^1.0.1",
     "lodash": "^4.17.4",
     "pg": "^6.1.2",
     "sequelize": "^3.30.2"
