@@ -1,5 +1,8 @@
-import { CourseModel } from './models/model'
+import { initRestApi } from './api/api';
+import * as express from 'express'
 
-CourseModel.findAll().then(res=>console.log(JSON.stringify(res)))
+const app = express()
 
-console.log('run server run')
+app.set('port', 4000)
+initRestApi(app)
+app.listen(app.get('port'), ()=>console.log(`server is runnng at ${app.get('port')}`))
