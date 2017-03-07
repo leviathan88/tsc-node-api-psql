@@ -3,6 +3,7 @@ import { databaseErrorHandler } from './databaseErrorHandler'
 import { onSuccess } from './onSuccess'
 import { Request, Response } from 'express'
 import { deleteLesson } from '../queries/deleteLesson'
+import * as _ from 'lodash'
 
 export const apiDeleteLesson = (req: Request, res: Response) => {
     const lessonId = req.params.id
