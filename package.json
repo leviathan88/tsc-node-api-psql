@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node server/server.ts",
-    "watch": "nodemon -w . --ext \".ts\" --exec \"npm run start\""
+    "watch": "nodemon -w V . --ext \".ts\" --exec \"npm run start\""
   },
   "author": "",
   "license": "ISC",
