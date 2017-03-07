@@ -6,5 +6,5 @@ import { apiGetAllCourses } from './apiGetAllCourses'
 export const initRestApi=(app: Application) => {
     app.route('/api/courses').get(apiGetAllCourses)
     app.route('/api/courses/:id').get(apiGetCourseDetails)
-    api.route('/api/lesson').post(apiCreateLesson)
+    app.route('/api/lesson').post(apiCreateLesson)
 }
